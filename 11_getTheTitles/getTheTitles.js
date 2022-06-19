@@ -2,6 +2,7 @@ const getTheTitles = function(books) {
     const userArray = books;
     let filteredItems = userArray.map((item) => {
       return item.title;
+      })
     })
     console.log(filteredItems);
 };
